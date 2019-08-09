@@ -7,8 +7,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 140px ;
-  border: 4px dotted orange;
+
 }
 .product-section-main{
-  border: 2px solid magenta;
+  border: 1px solid gray;
+  margin-bottom: 25px;
 }
