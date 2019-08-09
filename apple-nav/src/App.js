@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import { NavLink, Route} from "react-router-dom";
 import Home from "./components/Home";
 import CategoryPage from "./components/CategoryPage";
+import Support from "./components/Support";
 
 import data from "./components/data";
 
@@ -22,6 +23,7 @@ function App() {
           <NavLink to= "/support"> Support </NavLink>
         </div>
         <Route exact path = "/" component={Home}/>
+        <Route path = "/support" component={Support}/>
         <Route path="/categories/:id" render={props => <CategoryPage{...props}categories = {categories}/>} />
     </div>
   );

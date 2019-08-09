@@ -28,7 +28,7 @@ const Home = () => {
             <div className="product-section-main">
                 <Link to = "/categories/4"><h4>Music</h4></Link>
                 <p>Link to Music main page</p>
-            </div>  
+            </div> 
         </div>
     )
 }
