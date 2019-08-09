@@ -13,12 +13,12 @@ function App() {
     <div className="App">
         <div className="navbar">
           <NavLink to= "/"> Home </NavLink>
-          <NavLink to= "/ipad"> iPad </NavLink>
-          <NavLink to= "/iphone"> iPhone </NavLink>
-          <NavLink to= "/mac"> Mac </NavLink>
-          <NavLink to= "/music"> Music </NavLink>
-          <NavLink to= "/tv"> TV </NavLink>
-          <NavLink to= "/watch"> Watch </NavLink>
+          <NavLink to= "/categories/1"> iPad </NavLink>
+          <NavLink to= "/categories/2"> iPhone </NavLink>
+          <NavLink to= "/categories/3"> Mac </NavLink>
+          <NavLink to= "/categories/4"> Music </NavLink>
+          <NavLink to= "/categories/5"> TV </NavLink>
+          <NavLink to= "/categories/6"> Watch </NavLink>
           <NavLink to= "/support"> Support </NavLink>
         </div>
         <Route exact path = "/" component={Home}/>
